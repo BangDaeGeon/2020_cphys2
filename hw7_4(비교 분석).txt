@@ -1,0 +1,4 @@
+SoftMax Regression으로 train 했을 때 정확도는 0.9247 SVM은 0.9404, SVM(Scaled)는 0.9293, Random Forest는 0.902, Decision Tree는 0.9043이다.
+SoftMax Regression은 optimizer에 따라 정확성이 달라지는데 일반적으로 'sgd'보다 'adam'이 더 정확하다.
+정확도만 따졌을 때는 SVM이 가장 좋다. SVM을 할 때 scale이 중요한대 scale을 제대로 해주지 않으면 오히려 정확도가 떨어짐을 확인 할 수 있었다. 그리고 시간이 굉장히 오래걸린다는 단점이 있다.
+Random Forest와 Decision Tree는 위에 방법 중 제일 정확도가 떨어짐을 확인 할 수 있었다.
